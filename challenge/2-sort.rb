@@ -9,7 +9,7 @@ ARGV.each do |arg|
     # skip if not integer
     next if arg !~ /^-?[0-9]+$/
 
-    # convert to integer
+    # convert to integers
     i_arg = arg.to_i
 
     # insert result at the right position
